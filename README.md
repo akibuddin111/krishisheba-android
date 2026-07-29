@@ -84,9 +84,7 @@ Experience KrishiSheba in action through the application demo and interface prev
 
 ### 📽️ Application Demo
 
-<p align="center">
-  <img src="assets/demo/app-demo.mp4" alt="KrishiSheba Demo" width="85%">
-</p>
+https://github.com/user-attachments/assets/fe0450c7-13f1-4716-a795-7dcf537e4a80
 
 <p align="center">
   <i>AI-powered disease detection workflow from image selection to intelligent recommendations.</i>
@@ -99,7 +97,7 @@ Experience KrishiSheba in action through the application demo and interface prev
 <table align="center">
 <tr>
 <td align="center">
-<img src="assets/screenshots/home.png" width="220"><br>
+<img src="assets/screenshots/home2.png" width="220"><br>
 <b>🏠 Home Dashboard</b><br>
 <sub>Quick access to all core modules.</sub>
 </td>
@@ -248,7 +246,7 @@ KrishiSheba follows a modular client-server architecture that separates the mobi
 <p align="center">
   <img src="assets/diagrams/system-architecture.png"
        alt="KrishiSheba System Architecture"
-       width="95%">
+       width="70%">
 </p>
 
 ### Architecture Workflow
@@ -280,7 +278,7 @@ The trained model is deployed through a FastAPI backend, enabling real-time infe
 <p align="center">
   <img src="assets/diagrams/ai-pipeline.png"
        alt="AI Model Pipeline"
-       width="90%">
+       width="70%">
 </p>
 
 ---

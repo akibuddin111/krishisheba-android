@@ -540,34 +540,84 @@ Performs plant disease prediction using the trained EfficientNetB3 model.
 krishisheba-android/
 ├── README.md
 ├── assets/
-├── KrishiSheba/          # Android application
-└── krishisheba-ai/       # FastAPI backend
+├── KrishiSheba/
+└── krishisheba-ai/
 
 ## ⚙️ Installation
 
-### Android
+### 📱 Android Application
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/akibuddin111/krishisheba-android.git
 ```
 
-1. Open the Android project in Android Studio.
-2. Configure the backend URL if necessary.
-3. Build and run the application.
+1. Open the **KrishiSheba** project in Android Studio.
+2. Configure the backend API URL if necessary.
+3. Build and run the application on an emulator or Android device.
 
-### Backend
+---
+
+### ⚡ FastAPI Backend
+
+Navigate to the backend directory:
 
 ```bash
 cd krishisheba-ai
+```
 
+Create a virtual environment:
+
+```bash
 python -m venv venv
+```
 
+Activate the virtual environment:
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+source venv/bin/activate
+```
+
+Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
-
-uvicorn app:app --reload
 ```
 
 ---
+
+### 🧠 Download the AI Model
+
+The trained **EfficientNetB3** model is distributed separately because it exceeds GitHub's repository file size limit.
+
+📥 Download the latest model from:
+
+**https://github.com/akibuddin111/krishisheba-android/releases/latest**
+
+Place the downloaded file here:
+
+```text
+krishisheba-ai/
+└── models/
+    └── plant_disease_model.h5
+```
+
+---
+
+### 🚀 Start the Backend Server
+
+```bash
+uvicorn app:app --reload
+```
+
+The FastAPI server will automatically load the model during startup.
 
 # 👨‍💻 Author
 
@@ -581,7 +631,7 @@ uvicorn app:app --reload
 
 <td>
 
-## Md Sotej
+## Md. Akib Uddin Satej
 
 **Full-Stack Developer | AI Enthusiast | Agriculture Graduate**
 
